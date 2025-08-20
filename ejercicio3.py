@@ -11,8 +11,8 @@ class producto:
         print("Nombre: ", self.nombre)
         print("precio: ", self.precio)
         print("Cantidad: ", self.cantidad)
-    def vender(self, cantidad_a_vender)
-    if self.cantidad>= cantidad_a_vender:
+    def vender(self, cantidad_a_vender):
+        if self.cantidad>= cantidad_a_vender:
         self.cantidad= self.cantidad- cantidad_a_vender
         print("Producto vendido correctamente")
     else:
